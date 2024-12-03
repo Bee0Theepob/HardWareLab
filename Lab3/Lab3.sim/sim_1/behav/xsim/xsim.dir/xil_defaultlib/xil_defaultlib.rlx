@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+D:/HardwareSynLab/Lab3/Lab3.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+D:/HardwareSynLab/Lab3/Lab3.srcs/sources_1/new/BCD.v,1725948839,verilog,,D:/HardwareSynLab/Lab3/Lab3.srcs/sources_1/new/TestBCD.v,,BCD,,,,,,,,
+D:/HardwareSynLab/Lab3/Lab3.srcs/sources_1/new/Single_Pulser.v,1725948890,verilog,,D:/HardwareSynLab/Lab3/Lab3.srcs/sources_1/new/Test_Single_Pulser.v,,Single_Pulser,,,,,,,,
+D:/HardwareSynLab/Lab3/Lab3.srcs/sources_1/new/TestBCD.v,1725948729,verilog,,,,TestBCD,,,,,,,,
+D:/HardwareSynLab/Lab3/Lab3.srcs/sources_1/new/Test_Single_Pulser.v,1725948740,verilog,,,,Test_Single_Pulser,,,,,,,,

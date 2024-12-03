@@ -1,0 +1,12 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+D:/HardwareSynLab/Lab4_01/Lab4_01.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+D:/HardwareSynLab/Lab4_01/Lab4_01.srcs/sources_1/new/DFF.v,1726542921,verilog,,D:/HardwareSynLab/Lab4_01/Lab4_01.srcs/sources_1/new/Debouncer.v,,DFF,,,,,,,,
+D:/HardwareSynLab/Lab4_01/Lab4_01.srcs/sources_1/new/Debouncer.v,1726542931,verilog,,D:/HardwareSynLab/Lab4_01/Lab4_01.srcs/sources_1/new/Encoder.v,,Deboucer,,,,,,,,
+D:/HardwareSynLab/Lab4_01/Lab4_01.srcs/sources_1/new/Encoder.v,1726542944,verilog,,D:/HardwareSynLab/Lab4_01/Lab4_01.srcs/sources_1/new/InputBuffer.v,,Encoder,,,,,,,,
+D:/HardwareSynLab/Lab4_01/Lab4_01.srcs/sources_1/new/InputBuffer.v,1726542955,verilog,,D:/HardwareSynLab/Lab4_01/Lab4_01.srcs/sources_1/new/SevenSegment.v,,InputBuffer,,,,,,,,
+D:/HardwareSynLab/Lab4_01/Lab4_01.srcs/sources_1/new/Main.v,1726542966,verilog,,,,Main,,,,,,,,
+D:/HardwareSynLab/Lab4_01/Lab4_01.srcs/sources_1/new/SevenSegment.v,1726542976,verilog,,D:/HardwareSynLab/Lab4_01/Lab4_01.srcs/sources_1/new/Single_Pulser.v,,SevenSegment,,,,,,,,
+D:/HardwareSynLab/Lab4_01/Lab4_01.srcs/sources_1/new/Single_Pulser.v,1726543019,verilog,,D:/HardwareSynLab/Lab4_01/Lab4_01.srcs/sources_1/new/Main.v,,Single_Pulser,,,,,,,,

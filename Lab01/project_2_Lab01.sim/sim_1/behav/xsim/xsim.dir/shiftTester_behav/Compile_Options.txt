@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "shiftTester_behav" "xil_defaultlib.shiftTester" "xil_defaultlib.glbl" -log "elaborate.log" 

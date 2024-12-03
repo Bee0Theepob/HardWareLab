@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab4_01.srcs/sources_1/new/DFF.v" \
+"../../../../Lab4_01.srcs/sources_1/new/Debouncer.v" \
+"../../../../Lab4_01.srcs/sources_1/new/Encoder.v" \
+"../../../../Lab4_01.srcs/sources_1/new/InputBuffer.v" \
+"../../../../Lab4_01.srcs/sources_1/new/SevenSegment.v" \
+"../../../../Lab4_01.srcs/sources_1/new/Single_Pulser.v" \
+"../../../../Lab4_01.srcs/sources_1/new/Main.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

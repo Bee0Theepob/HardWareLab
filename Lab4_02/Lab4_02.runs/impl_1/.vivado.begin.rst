@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="BBB" Host="BB_IDEA3" Pid="18900" HostCore="12" HostMemory="016890978304">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="BBB" Host="BB_IDEA3" Pid="17608" HostCore="12" HostMemory="016890978304">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="BBB" Host="BB_IDEA3" Pid="16704" HostCore="12" HostMemory="016890978304">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="BBB" Host="BB_IDEA3" Pid="9804" HostCore="12" HostMemory="016890978304">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="BBB" Host="BB_IDEA3" Pid="2884" HostCore="12" HostMemory="016890978304">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="BBB" Host="BB_IDEA3" Pid="9392" HostCore="12" HostMemory="016890978304">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="BBB" Host="BB_IDEA3" Pid="20788" HostCore="12" HostMemory="016890978304">
+    </Process>
+</ProcessHandle>

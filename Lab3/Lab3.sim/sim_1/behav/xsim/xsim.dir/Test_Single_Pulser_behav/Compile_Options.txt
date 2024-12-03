@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "Test_Single_Pulser_behav" "xil_defaultlib.Test_Single_Pulser" "xil_defaultlib.glbl" -log "elaborate.log" 
