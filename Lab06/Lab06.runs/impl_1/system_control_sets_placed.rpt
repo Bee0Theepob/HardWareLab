@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-| Date         : Tue Nov 19 13:10:12 2024
+| Date         : Tue Dec  3 22:31:09 2024
 | Host         : BB_Idea3 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file system_control_sets_placed.rpt
 | Design       : system
@@ -73,40 +73,40 @@ Table of Contents
 +--------------------------------+-------------------------------------------+-----------------------------------------------+------------------+----------------+--------------+
 |          Clock Signal          |               Enable Signal               |                Set/Reset Signal               | Slice Load Count | Bel Load Count | Bels / Slice |
 +--------------------------------+-------------------------------------------+-----------------------------------------------+------------------+----------------+--------------+
-|  genblk1[13].fDiv/clkDiv_reg_0 |                                           |                                               |                1 |              1 |         1.00 |
-|  genblk1[10].fDiv/clkDiv_reg_0 |                                           |                                               |                1 |              1 |         1.00 |
 |  genblk1[2].fDiv/clkDiv_reg_0  |                                           |                                               |                1 |              1 |         1.00 |
-|  genblk1[3].fDiv/clkDiv_reg_0  |                                           |                                               |                1 |              1 |         1.00 |
-|  genblk1[0].fDiv/clkDiv_reg_0  |                                           |                                               |                1 |              1 |         1.00 |
-|  genblk1[4].fDiv/clkDiv_reg_0  |                                           |                                               |                1 |              1 |         1.00 |
-|  genblk1[5].fDiv/clkDiv_reg_0  |                                           |                                               |                1 |              1 |         1.00 |
-|  genblk1[6].fDiv/clkDiv_reg_0  |                                           |                                               |                1 |              1 |         1.00 |
-|  genblk1[8].fDiv/clkDiv_reg_0  |                                           |                                               |                1 |              1 |         1.00 |
-|  genblk1[9].fDiv/clkDiv_reg_0  |                                           |                                               |                1 |              1 |         1.00 |
-|  genblk1[7].fDiv/clkDiv_reg_0  |                                           |                                               |                1 |              1 |         1.00 |
-|  genblk1[17].fDiv/clkDiv_reg_0 |                                           |                                               |                1 |              1 |         1.00 |
-|  genblk1[11].fDiv/clkDiv_reg_0 |                                           |                                               |                1 |              1 |         1.00 |
 |  genblk1[16].fDiv/clkDiv_reg_0 |                                           |                                               |                1 |              1 |         1.00 |
-|  genblk1[14].fDiv/clkDiv_reg_0 |                                           |                                               |                1 |              1 |         1.00 |
-|  genblk1[12].fDiv/clkDiv_reg_0 |                                           |                                               |                1 |              1 |         1.00 |
-|  genblk1[15].fDiv/clkDiv_reg_0 |                                           |                                               |                1 |              1 |         1.00 |
-|  genblk1[1].fDiv/clkDiv_reg_0  |                                           |                                               |                1 |              1 |         1.00 |
-|  baud_BUFG                     | uart_instance/receiver/data_out[6]        |                                               |                1 |              1 |         1.00 |
+|  genblk1[17].fDiv/clkDiv_reg_0 |                                           |                                               |                1 |              1 |         1.00 |
+|  baud_BUFG                     | uart_instance/receiver/data_out[2]        |                                               |                1 |              1 |         1.00 |
 |  baud_BUFG                     | uart_instance/receiver/data_out[0]        |                                               |                1 |              1 |         1.00 |
-|  baud_BUFG                     | uart_instance/receiver/data_out[1]        |                                               |                1 |              1 |         1.00 |
-|  baud_BUFG                     | uart_instance/receiver/data_out[3]        |                                               |                1 |              1 |         1.00 |
-|  baud_BUFG                     | uart_instance/receiver/data_out[4]        |                                               |                1 |              1 |         1.00 |
 |  baud_BUFG                     | uart_instance/receiver/data_out[7]        |                                               |                1 |              1 |         1.00 |
 |  baud_BUFG                     | uart_instance/receiver/data_out[5]        |                                               |                1 |              1 |         1.00 |
-|  baud_BUFG                     | uart_instance/receiver/data_out[2]        |                                               |                1 |              1 |         1.00 |
+|  genblk1[14].fDiv/clkDiv_reg_0 |                                           |                                               |                1 |              1 |         1.00 |
+|  baud_BUFG                     | uart_instance/receiver/data_out[1]        |                                               |                1 |              1 |         1.00 |
+|  baud_BUFG                     | uart_instance/receiver/data_out[6]        |                                               |                1 |              1 |         1.00 |
+|  baud_BUFG                     | uart_instance/receiver/data_out[4]        |                                               |                1 |              1 |         1.00 |
+|  baud_BUFG                     | uart_instance/receiver/data_out[3]        |                                               |                1 |              1 |         1.00 |
 |  baud_BUFG                     | uart_instance/transmitter/bit_out_i_2_n_0 | uart_instance/transmitter/bit_out0            |                1 |              1 |         1.00 |
-|  fdivTarget/CLK                |                                           |                                               |                1 |              2 |         2.00 |
+|  genblk1[15].fDiv/clkDiv_reg_0 |                                           |                                               |                1 |              1 |         1.00 |
+|  genblk1[13].fDiv/clkDiv_reg_0 |                                           |                                               |                1 |              1 |         1.00 |
+|  genblk1[12].fDiv/clkDiv_reg_0 |                                           |                                               |                1 |              1 |         1.00 |
+|  genblk1[11].fDiv/clkDiv_reg_0 |                                           |                                               |                1 |              1 |         1.00 |
+|  genblk1[1].fDiv/clkDiv_reg_0  |                                           |                                               |                1 |              1 |         1.00 |
+|  genblk1[10].fDiv/clkDiv_reg_0 |                                           |                                               |                1 |              1 |         1.00 |
+|  genblk1[3].fDiv/clkDiv_reg_0  |                                           |                                               |                1 |              1 |         1.00 |
+|  genblk1[0].fDiv/clkDiv_reg_0  |                                           |                                               |                1 |              1 |         1.00 |
+|  genblk1[6].fDiv/clkDiv_reg_0  |                                           |                                               |                1 |              1 |         1.00 |
+|  genblk1[9].fDiv/clkDiv_reg_0  |                                           |                                               |                1 |              1 |         1.00 |
+|  genblk1[4].fDiv/clkDiv_reg_0  |                                           |                                               |                1 |              1 |         1.00 |
+|  genblk1[8].fDiv/clkDiv_reg_0  |                                           |                                               |                1 |              1 |         1.00 |
+|  genblk1[5].fDiv/clkDiv_reg_0  |                                           |                                               |                1 |              1 |         1.00 |
+|  genblk1[7].fDiv/clkDiv_reg_0  |                                           |                                               |                1 |              1 |         1.00 |
 |  clk_IBUF_BUFG                 |                                           |                                               |                2 |              2 |         1.00 |
+|  fdivTarget/CLK                |                                           |                                               |                1 |              2 |         2.00 |
 |  baud_BUFG                     |                                           |                                               |                3 |              7 |         2.33 |
-|  baud_BUFG                     |                                           | uart_instance/transmitter/count[7]_i_1__0_n_0 |                2 |              8 |         4.00 |
-|  baud_BUFG                     | uart_instance/transmitter/temp[7]_i_1_n_0 |                                               |                2 |              8 |         4.00 |
-|  baud_BUFG                     | uart_instance/receiver/E[0]               |                                               |                2 |              8 |         4.00 |
 |  baud_BUFG                     |                                           | uart_instance/receiver/count[7]_i_1_n_0       |                3 |              8 |         2.67 |
+|  baud_BUFG                     |                                           | uart_instance/transmitter/count[7]_i_1__0_n_0 |                2 |              8 |         4.00 |
+|  baud_BUFG                     | uart_instance/receiver/E[0]               |                                               |                2 |              8 |         4.00 |
+|  baud_BUFG                     | uart_instance/transmitter/temp[7]_i_1_n_0 |                                               |                2 |              8 |         4.00 |
 |  clk_IBUF_BUFG                 |                                           | uart_instance/baudrate_gen/clear              |                8 |             32 |         4.00 |
 +--------------------------------+-------------------------------------------+-----------------------------------------------+------------------+----------------+--------------+
 

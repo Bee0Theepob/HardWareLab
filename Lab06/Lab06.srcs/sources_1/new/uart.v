@@ -1,30 +1,9 @@
-
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 10/31/2021 09:59:35 PM
-// Design Name: 
-// Module Name: uart
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 module uart(
     input clk,
     input RsRx,
     output RsTx,
-   output reg [7:0]  data_2 
+    output reg [7:0] data_2 
     );
     
     reg en, last_rec;
@@ -40,10 +19,9 @@ module uart(
         if (en) en = 0;
         if (~last_rec & received) begin
             data_in = data_out;
-            data_2=data_out;
+            data_2 = data_out;
             if (data_in <= 8'h7A && data_in >= 8'h21) en = 1;
         end
         last_rec = received;
     end
-    
 endmodule

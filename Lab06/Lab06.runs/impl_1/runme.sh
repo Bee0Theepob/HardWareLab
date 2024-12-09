@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/HardwareSynLab/Lab06/Lab06.runs/impl_1'
+HD_PWD='D:/HardWareLab/Lab06/Lab06.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

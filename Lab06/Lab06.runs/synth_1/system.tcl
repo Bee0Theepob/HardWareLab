@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "D:/HardwareSynLab/Lab06/Lab06.runs/synth_1/system.tcl"
+  variable script "D:/HardWareLab/Lab06/Lab06.runs/synth_1/system.tcl"
   variable category "vivado_synth"
 }
 
@@ -57,30 +57,31 @@ if {$::dispatch::connected} {
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 3
+set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir D:/HardwareSynLab/Lab06/Lab06.cache/wt [current_project]
-set_property parent.project_path D:/HardwareSynLab/Lab06/Lab06.xpr [current_project]
+set_property webtalk.parent_dir D:/HardWareLab/Lab06/Lab06.cache/wt [current_project]
+set_property parent.project_path D:/HardWareLab/Lab06/Lab06.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part digilentinc.com:basys3:part0:1.1 [current_project]
-set_property ip_output_repo d:/HardwareSynLab/Lab06/Lab06.cache/ip [current_project]
+set_property ip_output_repo d:/HardWareLab/Lab06/Lab06.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
-  D:/HardwareSynLab/Lab06/Lab06.srcs/sources_1/new/baudrate_gen.v
-  D:/HardwareSynLab/Lab06/Lab06.srcs/sources_1/new/clockDiv.v
-  D:/HardwareSynLab/Lab06/Lab06.srcs/sources_1/new/hexTo7Segment.v
-  D:/HardwareSynLab/Lab06/Lab06.srcs/sources_1/new/quadSevenSeg.v
-  D:/HardwareSynLab/Lab06/Lab06.srcs/sources_1/new/uart.v
-  D:/HardwareSynLab/Lab06/Lab06.srcs/sources_1/new/uart_rx.v
-  D:/HardwareSynLab/Lab06/Lab06.srcs/sources_1/new/uart_tx.v
-  D:/HardwareSynLab/Lab06/Lab06.srcs/sources_1/new/system.v
+  D:/HardWareLab/Lab06/Lab06.srcs/sources_1/new/baudrate_gen.v
+  D:/HardWareLab/Lab06/Lab06.srcs/sources_1/new/clockDiv.v
+  D:/HardWareLab/Lab06/Lab06.srcs/sources_1/new/hexTo7Segment.v
+  D:/HardWareLab/Lab06/Lab06.srcs/sources_1/new/quadSevenSeg.v
+  D:/HardWareLab/Lab06/Lab06.srcs/sources_1/new/uart.v
+  D:/HardWareLab/Lab06/Lab06.srcs/sources_1/new/uart_rx.v
+  D:/HardWareLab/Lab06/Lab06.srcs/sources_1/new/uart_tx.v
+  D:/HardWareLab/Lab06/Lab06.srcs/sources_1/new/system.v
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -91,12 +92,12 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc D:/HardwareSynLab/Lab06/Lab06.srcs/constrs_1/new/Basys3_Master.xdc
-set_property used_in_implementation false [get_files D:/HardwareSynLab/Lab06/Lab06.srcs/constrs_1/new/Basys3_Master.xdc]
+read_xdc D:/HardWareLab/Lab06/Lab06.srcs/constrs_1/new/Basys3_Master.xdc
+set_property used_in_implementation false [get_files D:/HardWareLab/Lab06/Lab06.srcs/constrs_1/new/Basys3_Master.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental D:/HardwareSynLab/Lab06/Lab06.srcs/utils_1/imports/synth_1/system.dcp
+read_checkpoint -auto_incremental -incremental D:/HardWareLab/Lab06/Lab06.srcs/utils_1/imports/synth_1/system.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

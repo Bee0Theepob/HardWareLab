@@ -1,5 +1,5 @@
 namespace eval ::optrace {
-  variable script "D:/HardwareSynLab/Lab06/Lab06.runs/impl_1/system.tcl"
+  variable script "D:/HardWareLab/Lab06/Lab06.runs/impl_1/system.tcl"
   variable category "vivado_impl"
 }
 
@@ -106,9 +106,10 @@ set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
   set_param chipscope.maxJobs 3
+  set_param xicom.use_bs_reader 1
   set_param runs.launchOptions { -jobs 12  }
   open_checkpoint system_routed.dcp
-  set_property webtalk.parent_dir D:/HardwareSynLab/Lab06/Lab06.cache/wt [current_project]
+  set_property webtalk.parent_dir D:/HardWareLab/Lab06/Lab06.cache/wt [current_project]
 set_property TOP system [current_fileset]
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }

@@ -1,32 +1,10 @@
-
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 10/31/2021 10:15:58 PM
-// Design Name: 
-// Module Name: uart_tx
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 module uart_tx(
     input clk,
     input [7:0] data_transmit,
     input ena,
     output reg sent,
     output reg bit_out
-  
     );
     
     reg last_ena;

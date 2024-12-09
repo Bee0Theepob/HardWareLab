@@ -1,25 +1,4 @@
-
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 08/30/2021 08:55:14 PM
-// Design Name: 
-// Module Name: hexTo7Segment
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module hexTo7Segment(
     output [6:0] segments,
@@ -27,15 +6,6 @@ module hexTo7Segment(
     );
     
     reg [6:0] segments;
-    
-// 7-segment encoding
-//      0
-//     ---
-//  5 |   | 1
-//     --- <--6
-//  4 |   | 2
-//     ---
-//      3
 
    always @(hex)
       case (hex)
